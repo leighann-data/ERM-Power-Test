@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Data\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.CommandLine" Version="5.4.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Mono.Options" Version="6.6.0.161" />
+    <PackageReference Include="IntelliTect.TestTools.TestFramework" Version="1.1.1" />
+    <PackageReference Include="FluentAssertions" Version="5.10.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Utils\FileUtil.cs" />
+  </ItemGroup>
+</Project>
