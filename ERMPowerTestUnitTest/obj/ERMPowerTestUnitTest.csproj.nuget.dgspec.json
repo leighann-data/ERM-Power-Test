@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ailsa/Projects/ERMPowerTest/ERMPowerTestUnitTest/ERMPowerTestUnitTest.csproj": {}
+  },
+  "projects": {
+    "/Users/ailsa/Projects/ERMPowerTest/ERMPowerTest/ERMPowerTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ailsa/Projects/ERMPowerTest/ERMPowerTest/ERMPowerTest.csproj",
+        "projectName": "ERMPowerTest",
+        "projectPath": "/Users/ailsa/Projects/ERMPowerTest/ERMPowerTest/ERMPowerTest.csproj",
+        "packagesPath": "/Users/ailsa/.nuget/packages/",
+        "outputPath": "/Users/ailsa/Projects/ERMPowerTest/ERMPowerTest/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ailsa/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.2, )"
+            },
+            "IntelliTect.TestTools.TestFramework": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Mono.Options": {
+              "target": "Package",
+              "version": "[6.6.0.161, )"
+            },
+            "NuGet.CommandLine": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ailsa/Projects/ERMPowerTest/ERMPowerTestUnitTest/ERMPowerTestUnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ailsa/Projects/ERMPowerTest/ERMPowerTestUnitTest/ERMPowerTestUnitTest.csproj",
+        "projectName": "ERMPowerTestUnitTest",
+        "projectPath": "/Users/ailsa/Projects/ERMPowerTest/ERMPowerTestUnitTest/ERMPowerTestUnitTest.csproj",
+        "packagesPath": "/Users/ailsa/.nuget/packages/",
+        "outputPath": "/Users/ailsa/Projects/ERMPowerTest/ERMPowerTestUnitTest/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ailsa/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/ailsa/Projects/ERMPowerTest/ERMPowerTest/ERMPowerTest.csproj": {
+                "projectPath": "/Users/ailsa/Projects/ERMPowerTest/ERMPowerTest/ERMPowerTest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
